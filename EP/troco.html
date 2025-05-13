@@ -1,0 +1,28 @@
+<script type="text/javascript">
+	var vc,vp,troco,n100,n50,n20,n10,n5,n2,m1,aux
+	vc=+prompt('informe o valor de sua compra')
+	vp=+prompt('informe o valor pago')
+	troco=vp-vc
+	n100=parseInt(troco/100)
+	aux=troco%100
+	n50=parseInt(aux/50)
+	aux=aux%50
+	n20=parseInt(aux/20)
+	aux=aux%20
+	n10=parseInt(aux/10)
+	aux=aux%10
+	n5=parseInt(aux/5)
+	aux=aux%5
+	n2=parseInt(aux/2)
+	aux=aux%2
+	m1=parseInt(aux/1)
+	aux=aux%2
+	document.write('o troco é: '+troco+'<br>')
+	document.write('você irá receber: '+n100+ '<br>')
+	document.write('você irá receber: '+n50+ '<br>')
+	document.write('você irá receber: '+n20+ '<br>')
+	document.write('você irá receber: '+n10+ '<br>')
+	document.write('você irá receber: '+n5+ '<br>')
+	document.write('você irá receber: '+n2+ '<br>')
+	document.write('você irá receber: '+m1)
+</script>
